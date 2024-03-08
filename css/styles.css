@@ -156,11 +156,23 @@ margin-left: auto;
 
 .box-hero-image {
 box-sizing: content-box;
-/* width: 1440px;
-height: 600px; */
 background: #2e2f42;
 padding-top: 188px;
 padding-bottom: 188px;
+
+background-image: url(./images/people-office1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+background-image: linear-gradient(
+	to bottom, 
+	rgba(46, 47, 66, 0.7), 
+	rgba(46, 47, 66, 0.7)
+  ),
+	url(images/people-office1.jpg);
+
+
 
 
 }
