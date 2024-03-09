@@ -497,7 +497,10 @@ max-width: 264px;
 .media-box {
 width: 208px;
 height: 80px;
-
+margin-top: 110px;
+margin-bottom: 122px;
+margin-left: 120px;
+margin-right: 120px;
 }
 
 .text-social-media {
