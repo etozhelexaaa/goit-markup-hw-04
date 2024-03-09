@@ -379,7 +379,7 @@ height: 40px;
 .sosial-icon {
 width: 40px;
 height: 40px;
-background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition-property:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -480,9 +480,12 @@ padding: 100px 0;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  align-items: baseline;
 }
 
-
+.logo-p {
+  margin-right: 120px
+}
 
 .footer-text {
 font-family: "Roboto", sans-serif;
@@ -495,7 +498,7 @@ max-width: 264px;
 }
 
 .media-box {
-width: 208px;
+  width: 208px;
 height: 80px;
 margin-top: 110px;
 margin-bottom: 122px;
@@ -511,6 +514,18 @@ margin-right: 120px;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.social-masager-footer {
+  gap: 16px;
+}
+
+.icon-sss-footer:hover {
+  background-color: #31d0aa;
+}
+
+.icon-sss-footer:focus {
+  background-color: #31d0aa;
 }
 
 .studio-footer {
