@@ -379,6 +379,7 @@ flex-direction: row;
 gap: 24px;
 width: 232px;
 height: 40px;
+margin-right: 16px;
 }
 
 .sosial-icon {
@@ -407,7 +408,7 @@ transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
-  fill:#f4f4fd;
+  /* fill:#f4f4fd; */
 }
 /* SOCIALLLLLL */
 
@@ -501,13 +502,18 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.cart-content:hover {
+  transform: translateY(0%);
+}
+
+
 /* <!-- Footer --> */
 
 .footer {
-background: #2e2f42;
-/* width: 1440px;
-height: 312px; */
-padding: 100px 0;
+  background: #2e2f42;
+  /* width: 1440px;
+  height: 312px; */
+  padding: 100px 0;
 }
 
 .mediateka {
@@ -521,7 +527,7 @@ padding: 100px 0;
 }
 
 .logo-p {
-   margin-right: 120px;
+  margin-right: 120px;
 }
 
 .footer-text {
