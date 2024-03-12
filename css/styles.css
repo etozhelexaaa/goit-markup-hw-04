@@ -289,7 +289,7 @@ color: #434455;
   align-items: center;
   justify-content: center;
   height: 112px;
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
   border: 1px solid #8e8f99;
@@ -395,12 +395,11 @@ text-align: center;
   background-color: #404bbf;
 }
 
-.icon {
+/* .icon {
   fill:#f4f4fd;
-}
+} */
 
 /* SOCIALLLLLL */
-
 
 /* <!-- Sektion-4 --> */
 
@@ -444,7 +443,6 @@ text-align: center;
 
 .open-card {
   position: relative;
-  position: overlay;  
   overflow: hidden;
 }
 
@@ -465,7 +463,7 @@ text-align: center;
   color: #f4f4fd;
 }
 
-.new-information:hover {
+.open-card:hover .new-information {
   transform: translateY(0%);
 }
 
@@ -511,12 +509,7 @@ text-align: center;
 
 .mediateka {
   display: flex;
-  /* align-items: baseline;
-  margin-right: 120px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row; */
-  align-items: baseline;
+   align-items: baseline;
 }
 
 .logo-p {
