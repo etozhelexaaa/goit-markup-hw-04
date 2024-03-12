@@ -443,6 +443,7 @@ text-align: center;
 }
 
 .open-card {
+  position: relative;
   position: overlay;  
   overflow: hidden;
 }
@@ -508,15 +509,15 @@ text-align: center;
   
 }
 
-/* .mediateka {
+.mediateka {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline;
   margin-right: 120px;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: row; */
   align-items: baseline;
-} */
+}
 
 .logo-p {
   margin-right: 120px;
