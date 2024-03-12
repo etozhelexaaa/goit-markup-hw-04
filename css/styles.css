@@ -411,8 +411,7 @@ text-align: center;
 .container-four {
   padding-top: 120px;
   padding-bottom: 120px;
-  }
-
+}
 
 .our-portfolio {
   font-weight: 700;
@@ -423,6 +422,7 @@ text-align: center;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+  
 }
 
 .card-set{
@@ -443,9 +443,10 @@ text-align: center;
 }
 
 .open-card {
-  position: relative; 
+  position: overlay;  
   overflow: hidden;
 }
+
 
 .new-information {
   position: absolute;
@@ -504,9 +505,10 @@ text-align: center;
   /* width: 1440px;
   height: 312px; */
   padding: 100px 0;
+  
 }
 
-.mediateka {
+/* .mediateka {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
@@ -514,7 +516,7 @@ text-align: center;
   justify-content: center;
   flex-direction: row;
   align-items: baseline;
-}
+} */
 
 .logo-p {
   margin-right: 120px;
