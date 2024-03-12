@@ -295,6 +295,10 @@ color: #434455;
   border: 1px solid #8e8f99;
 }
 
+.icons {
+  background-image: url(../);
+}
+
 /* <!-- Sektion-3 --> */
 .section-sss {
   background-color: #F4F4FD;
@@ -359,6 +363,9 @@ text-align: center;
 }
 
 /* SOCIALLLLLL */
+
+
+
 .social-masager {
   display: flex;
   align-items: center;
@@ -367,7 +374,7 @@ text-align: center;
   gap: 24px;
   width: 232px;
   height: 40px;
-  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .sosial-icon {
