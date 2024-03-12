@@ -45,7 +45,7 @@ ul {
   padding-right: 15px;
 }
 
-style {
+.style-header {
   display: flex;
   align-items: center;
 }
@@ -500,15 +500,16 @@ text-align: center;
 
 .footer {
   background: #2e2f42;
-  /* width: 1440px;
-  height: 312px; */
   padding: 100px 0;
-  
+}
+.style-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .mediateka {
   display: flex;
-   align-items: baseline;
+  align-items: baseline;
 }
 
 .logo-p {
